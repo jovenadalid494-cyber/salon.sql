@@ -1,0 +1,13 @@
+  table_name  |  column_name   |                    column_default                    | is_nullable 
+--------------+----------------+------------------------------------------------------+-------------
+ appointments | appointment_id | nextval('appointments_appointment_id_seq'::regclass) | NO
+ appointments | customer_id    |                                                      | NO
+ appointments | service_id     |                                                      | NO
+ appointments | time           |                                                      | NO
+ customers    | customer_id    | nextval('customers_customer_id_seq'::regclass)       | NO
+ customers    | phone          |                                                      | NO
+ customers    | name           |                                                      | NO
+ services     | service_id     | nextval('services_service_id_seq'::regclass)         | NO
+ services     | name           |                                                      | NO
+(9 rows)
+
